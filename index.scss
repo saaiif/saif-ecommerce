@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
 
 :root {
 	--primaryColor: #f09d51;
@@ -18,7 +18,7 @@
 body {
 	color: (var(--mainBlack));
 	background-color: (var(--mainWhite));
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	width: 100%;
 	// overflow-y: scroll;
 }
@@ -172,6 +172,7 @@ body {
 	width: 100%;
 	min-height: 12rem;
 	transition: var(--mainTransition);
+	box-shadow: 5px 5px 4px #ddd;
 }
 .img-container:hover .product-img {
 	opacity: 0.5;

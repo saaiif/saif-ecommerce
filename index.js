@@ -42,15 +42,16 @@ class UI {
                     <img src=${product.image} alt="Product" class="product-img">
                     <button class="bag-btn" data-id=${product.id}>
                         <i class="fas fa-shopping-cart"></i>
-                        add to bag
+                        <span>add to bag</span>
                     </button>
                     <h3>${product.title}</h3>
-                    <h4>&#x20B9; ${product.price}</h4>
+                    <h4 class="price">&#x20B9; ${product.price}</h4>
                 </div>
             </article>`;
 		});
 		productsDOM.innerHTML = result;
 	}
+
 	getBagButtons() {
 		var buttons = [ ...document.querySelectorAll('.bag-btn') ];
 		myProduct = buttons;
