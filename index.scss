@@ -61,7 +61,7 @@ body {
 .cart-items {
 	position: absolute;
 	top: -12px;
-	right: -15px;
+	right: -9px;
 	padding: 0 5px;
 	background: var(--primaryColor);
 	color: var(--mainWhite);
@@ -151,6 +151,8 @@ body {
 	transition: var(--mainTransition);
 	font-weight: bold;
 	transform: translateX(101%);
+	display: flex;
+	align-items: center;
 	cursor: pointer;
 }
 
